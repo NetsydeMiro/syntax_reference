@@ -1,0 +1,15 @@
+.selector_container{
+  @extend %clearfix;
+  margin-bottom: 20px;
+}
+
+.language_selector {
+  float: left;
+  margin-right: 10px;
+}
+
+.syntax_selector {
+  float: left;
+  margin-right: 10px;
+}
+

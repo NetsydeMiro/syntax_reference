@@ -1,0 +1,7 @@
+<div class='selector_container'>
+{% for sample in site.syntax_samples %}
+<div class='syntax_selector'>
+  <input type='checkbox' name='syntax' value='{{sample.snippet}}'>{{ sample.title }}
+</div>
+{% endfor %}
+</div>

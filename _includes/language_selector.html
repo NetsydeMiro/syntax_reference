@@ -1,0 +1,8 @@
+<div class='selector_container'>
+{% for language in site.languages %}
+<div class='language_selector'>
+  <input type='checkbox' name='language' value='{{language.name}}'>{{ language.name | capitalize }}
+</div>
+{% endfor %}
+</div>
+
