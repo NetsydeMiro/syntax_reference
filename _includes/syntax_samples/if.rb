@@ -19,6 +19,8 @@ if condition then "this" else "that" end
 
 # return value
 return_val = if condition then "this" else "that" end
+# also supports ternary operator
+return_val = condition ? "this" : "that"
 
 # unless 
 return_val = unless condition then "that" else "this" end

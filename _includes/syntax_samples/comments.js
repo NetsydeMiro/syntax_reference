@@ -4,6 +4,5 @@
 Multi
 Line
 Comment
-=end
 */
 

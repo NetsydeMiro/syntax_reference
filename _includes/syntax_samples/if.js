@@ -20,7 +20,8 @@ else{
 // one-liner
 if (condition) result = "this"; else result = "that"; 
 
-// return value not supported
+// return value supported via ternary operator
+result = condition ? "this" : "that"; 
 
 // unless not supported
 

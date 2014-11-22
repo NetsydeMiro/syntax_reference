@@ -1,24 +1,21 @@
-/* standard */
+// standard 
 if condition
   "this"
 else
   "that"
-end
 
-# elsif
+// else if
 if condition
   "this"
-elsif another_condition
+else if another_condition
   "this2"
 else
   "that"
-end
 
-# one-liner
-if condition then "this" else "that" end
+// one-liner
+if condition "this" else "that" 
 
-# return value
-return_val = if condition then "this" else "that" end
+// return value
+return_val = if condition "this" else "that" 
 
-# unless 
-return_val = unless condition then "that" else "this" end
+// unless not supported

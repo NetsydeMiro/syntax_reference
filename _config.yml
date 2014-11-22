@@ -33,3 +33,6 @@ syntax_samples:
   - 
     title: If Else Then
     snippet: if
+  - 
+    title: Comments
+    snippet: comments
