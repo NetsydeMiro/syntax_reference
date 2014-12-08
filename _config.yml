@@ -11,23 +11,18 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 highlighter: rouge
+host: 0.0.0.0
 
 languages: 
   - 
-    name: ruby
+    name: Ruby
     extension: rb
   - 
-    name: python
-    extension: py
+    name: C++
+    extension: cpp
   - 
-    name: javascript 
-    extension: js
-  - 
-    name: coffeescript
-    extension: coffee
-  - 
-    name: scala
-    extension: scala
+    name: C# 
+    extension: cs
 
 syntax_samples: 
   - 
