@@ -13,21 +13,3 @@ markdown: kramdown
 highlighter: rouge
 host: 0.0.0.0
 
-languages: 
-  - 
-    name: Ruby
-    extension: rb
-  - 
-    name: C++
-    extension: cpp
-  - 
-    name: C# 
-    extension: cs
-
-syntax_samples: 
-  - 
-    title: If Else Then
-    snippet: if
-  - 
-    title: Comments
-    snippet: comments
