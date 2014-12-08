@@ -16,3 +16,9 @@ syntax_samples:
   - 
     title: Comments
     snippet: comments
+  - 
+    title: Program Structure
+    snippet: program_structure
+  - 
+    title: File Input
+    snippet: file_input
