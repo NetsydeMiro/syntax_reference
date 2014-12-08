@@ -17,7 +17,7 @@ Note that code highlighting via jekyll natively seems to be broken in many ways 
 ##{{ sample.title }}
 
 {% for language in site.languages %}
-###{{ language.name | replace: '#', '\#' }}
+###<span>{{ language.name }}</span>
 
 {% include syntax_snippet.html %}
 
