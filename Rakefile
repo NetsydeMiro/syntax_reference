@@ -28,14 +28,14 @@ end
 def add_syntax(syntaxes)
   require 'yaml'
 
-  config_file = '_syntax.yml'
+  config_file = '_config.yml'
 
   config = YAML.load_file config_file
 
   extensions = config['languages'].map { |lang| lang['extension'] }
 
   syntaxes.each do |syntax|
-    config['syntax_samples'] << {title: syntax, snippet: syntax }
+    config['syntax_samples'] << {'title' => syntax, 'snippet' => syntax }
     extensions.each do |extension|
       File.write "_includes/syntax_samples/#{syntax}.#{extension}", ''
     end

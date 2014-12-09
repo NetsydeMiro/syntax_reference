@@ -1,6 +1,6 @@
 {% assign snippet = 'syntax_samples/' | append: sample.snippet | append: '.' | append: language.extension %}
 <div id='{{language.name}}_{{sample.snippet}}'>
-<pre><code class='{{language.name}}'>
+<pre><code class='{{language.highlight}}'>
 {% include {{snippet}} %}
 </code></pre>
 {{ snippet }}
