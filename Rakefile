@@ -1,6 +1,6 @@
 task :commit, [:message] do |task, args|
   `git add -A`
-  `git commit -a -m '#{args[:message]}'`
+  `git commit -a -m "#{args[:message]}"`
 end
 
 task :merge do
