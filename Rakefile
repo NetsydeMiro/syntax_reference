@@ -1,4 +1,5 @@
 task :commit, [:message] do |task, args|
+  args.with_defaults(message: 'Tweak')
   `git add -A`
   `git commit -a -m "#{args[:message]}"`
 end
@@ -9,7 +10,7 @@ task :merge do
   `git checkout master`
 end
 
-task :push => [:commit, :merge] do
+task :push, [:message] => [:commit,:merge] do |task, args|
   `git push origin --all`
 end
 
