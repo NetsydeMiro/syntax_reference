@@ -1,9 +1,7 @@
 ---
 title: Syntax Reference
 email: your-email@domain.com
-description: ! 'A programming language reference.
-
-'
+description: A programming language reference.
 baseurl: ''
 url: http://yourdomain.com
 twitter_username: jekyllrb
